@@ -104,5 +104,5 @@ def visualization (ori_data, generated_data, analysis):
     plt.title('t-SNE plot')
     plt.xlabel('x-tsne')
     plt.ylabel('y_tsne')
-    plt.savefig('pca_plot.png', format='png')
+    plt.savefig('tsne_plot.png', format='png')
     plt.show()    
